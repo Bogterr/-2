@@ -15,6 +15,7 @@ print("Обновленный словарь: ", my_dict)
 print()
 
 my_dict.pop("Воскресенье")
+print(my_dict.get("Воскресенье")
 print("Вырезан item 'Воскресенье': ", my_dict)
 print()
 # ********************
