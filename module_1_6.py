@@ -69,3 +69,6 @@ print("Ключи: ", test_dict.keys())
 x.extend(test_dict.keys())
 print("Список ключей по словарю: ", x)
 print()
+
+necessary_key = x[2]
+print("Ключ_3: ", necessary_key)
