@@ -54,3 +54,18 @@ for i in range(100):      # для i в диапазоне от 0 до 100
 print(my_list)
 print(len(my_list))
 print()
+
+
+# ********************
+# Как достать конкретный ключ из словаря?
+
+x = []
+necessary_key = ""
+test_dict = {"Vasia":1, "Petia":2, "Igor":3, "Semen":4}
+print()
+print("Словарь: ", test_dict)
+print()
+print("Ключи: ", test_dict.keys())
+x.extend(test_dict.keys())
+print("Список ключей по словарю: ", x)
+print()
