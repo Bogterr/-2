@@ -14,10 +14,11 @@ my_dict.update({"Monday": 1, "Tuesday": 2, "Wednesday": 3, "Thursday": 4, "Frida
 print("Обновленный словарь: ", my_dict)
 print()
 
+x = my_dict.get("Воскресенье")
 my_dict.pop("Воскресенье")
-print(my_dict.get("Воскресенье")
 print("Вырезан item 'Воскресенье': ", my_dict)
 print()
+print("Значение, удаленного из словаря ключа, 'Воскресенье': ", x)
 # ********************
 
 print("*" * 30)
